@@ -27,8 +27,8 @@ jobs:
       run: |
         sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 
-    - name: Debugging with tmate
-      uses: mxschmitt/action-tmate@v2
+#    - name: Debugging with tmate
+#      uses: mxschmitt/action-tmate@v2
 
     # Runs a single command using the runners shell
     - name: Download the Economists mobi

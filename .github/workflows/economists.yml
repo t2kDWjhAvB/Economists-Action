@@ -11,7 +11,7 @@ name: download economists mobi
 #      - 'Changelog'
 on: 
   schedule:
-    - cron: "0 12 * * 5"
+    - cron: "0 10 * * 5"
       
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:

@@ -25,4 +25,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Remove artifacts
         uses: c-hive/gha-remove-artifacts@v1.2.0
-
+        with:
+          age: '10 days'
+        # Optional inputs
+          skip-tags: true
+          skip-recent: 1
